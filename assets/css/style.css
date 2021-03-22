@@ -3,8 +3,17 @@
     padding: 5px;
 }
 
+.nav-options {
+    margin-left: 30px;
+}
+
 a img {
-    height: 80px;
-    width: 80px;
+    height: 40px;
+    margin: auto;
+}
+.logo-text {
+    margin-left: 65px;
+    text-transform: capitalize; 
+    height: 40px;
 }
 

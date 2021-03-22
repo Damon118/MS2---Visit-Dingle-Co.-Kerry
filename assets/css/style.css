@@ -1,5 +1,7 @@
-
-.nav-size {
+nav {
+     background-color: #89D1FE;
+}
+.nav-spec {
     padding: 5px;
 }
 
@@ -9,7 +11,8 @@
 
 a img {
     height: 40px;
-    margin: auto;
+    padding: 2px;
+    margin-right: 8px;
 }
 .logo-text {
     margin-left: 65px;
@@ -17,3 +20,8 @@ a img {
     height: 40px;
 }
 
+.nav-item {
+    padding: 5px;
+    margin-right: 35px; 
+    color: #ffffff;
+}

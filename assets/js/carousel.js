@@ -1,37 +1,23 @@
-<script>
-    $(document).ready(function(){
+$(document).ready(function(){
   // Activate Carousel
-        $("#myCarousel").carousel("pause")});
-
-  // Go to the previous item
-
-    $("#myBtn").click(function(){
-            $("#myCarousel").carousel("prev")});
-
-  // Go to the next item
-
-    $("#myBtn2").click(function(){
-        $("#myCarousel").carousel("next")});
+  $("#carouselExampleControls").carousel();
     
   // Enable Carousel Indicators
-
-    $(".item1").click(function(){
-        $("#myCarousel").carousel(0)});
-
-    $(".item2").click(function(){
-        $("#myCarousel").carousel(1)});
-
-    $(".item3").click(function(){
-        $("#myCarousel").carousel(2)});
-
-    $(".item4").click(function(){
-        $("#myCarousel").carousel(3)});
+  $(".carousel-item").click(function(){
+    $("#myCarousel").carousel(0);
+  });
+  $(".carousel-item").click(function(){
+    $("#myCarousel").carousel(1);
+  });
+  $(".carosel-item").click(function(){
+    $("#myCarousel").carousel(2);
+  });
     
   // Enable Carousel Controls
-
-    $(".left").click(function(){
-        $("#myCarousel").carousel("prev")});
-    $(".right").click(function(){
-        $("#myCarousel").carousel("next")});
-    });
-</script>
+  $(".carousel-control-prev").click(function(){
+    $("#carouselExampleControls").carousel("prev");
+  });
+  $(".carouselExampleControls").click(function(){
+    $("#myCarousel").carousel("next");
+  });
+});

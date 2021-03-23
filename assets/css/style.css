@@ -48,6 +48,8 @@ footer {
  bottom: 0;
  width: 100%; 
  height: fit-content;
+ background-color: #89D1FE; 
+ color: #ffffff;
 }
 
 .uppercase {
@@ -71,5 +73,11 @@ footer {
     padding: 5px;
     margin: 2px;
 }
+
+.social-header {
+    font-weight: bold;
+    padding: 8px 5px 5px 5px;
+    margin: 3px 0px 10px 0px;
+} 
 
 /* -End of Footer Section*/

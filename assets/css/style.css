@@ -80,4 +80,14 @@ footer {
     margin: 3px 0px 10px 0px;
 } 
 
+.social-links { 
+    padding: 5px;
+    background-color: #ffffff;
+    height: 35px;
+    text-align: center; 
+    line-height: 4px;
+    border-radius: 50%; 
+    margin: 2px;
+} 
+
 /* -End of Footer Section*/

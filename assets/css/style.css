@@ -1,3 +1,5 @@
+/* -Start of Navigation Section */
+
 nav {
      background-color: #89D1FE;
 }
@@ -37,3 +39,17 @@ a img {
 .nav-link-item {
     color: #ffffff;
 }
+
+/* - End of Navigation Section */
+
+/* -Start of Footer Section*/
+
+footer {
+ bottom: 0;
+ width: 100%; 
+ height: fit-content;
+}
+
+
+
+/* -End of Footer Section*/

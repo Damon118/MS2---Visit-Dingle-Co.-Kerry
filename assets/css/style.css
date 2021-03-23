@@ -50,6 +50,26 @@ footer {
  height: fit-content;
 }
 
+.uppercase {
+    text-align: center;
+}
 
+.copyright-header {
+    font-weight: bold;
+    text-decoration: underline; 
+    text-align: left;
+} 
+
+.interested-footer {
+    font-weight: bold;
+    text-align: left; 
+    padding-top: 8px;
+    margin-top: 3px;
+} 
+
+.interested-info {
+    padding: 5px;
+    margin: 2px;
+}
 
 /* -End of Footer Section*/

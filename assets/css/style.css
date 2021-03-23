@@ -83,11 +83,14 @@ footer {
 .social-links { 
     padding: 5px;
     background-color: #ffffff;
-    height: 35px;
     text-align: center; 
     line-height: 4px;
     border-radius: 50%; 
     margin: 2px;
 } 
+
+.list-unstyled {
+    text-align: center;
+}
 
 /* -End of Footer Section*/

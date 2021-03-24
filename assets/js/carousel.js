@@ -1,19 +1,17 @@
 $(document).ready(function(){
-  // Activate Carousel
-  $("#carouselExampleControls").carousel();
+
+  $(".carousel").carousel();
     
-  // Enable Carousel Indicators
-  $(".carousel-item").click(function(){
-    $("#myCarousel").carousel(0);
+  $(".carousel-inner").click(function(){
+    $(".carousel-item").carousel(0);
   });
-  $(".carousel-item").click(function(){
-    $("#myCarousel").carousel(1);
+  $(".carousel-inner").click(function(){
+    $(".carousel-item").carousel(1);
   });
-  $(".carosel-item").click(function(){
-    $("#myCarousel").carousel(2);
+  $(".carosel-inner").click(function(){
+    $(".carousel-item").carousel(2);
   });
     
-  // Enable Carousel Controls
   $(".carousel-control-prev").click(function(){
     $("#carouselExampleControls").carousel("prev");
   });

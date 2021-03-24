@@ -45,23 +45,21 @@ a img {
 /* -Start of Contact.html Page */
 
 #contact-container {
-    background: url("../images/form-image.jpeg"); 
+    background: url("../images/conact-image.jpeg"); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: 120vh;
     opacity: 0.5;
-    height: 120vh; 
-    width: 100%;
 } 
 
 .contact-form { 
-    display:block;
     background-color: #ffffff;
     border-radius: 25px;
-    border: 2px solid #89D1FE;
+    border: 2px solid;
     padding: 20px; 
     margin: 50px 0px 20px 0px; 
-    width: 50%;
+    width: 100%;
 }
 
 

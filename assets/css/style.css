@@ -91,24 +91,30 @@ footer {
     font-weight: bold;
     text-decoration: underline; 
     text-align: left;
+    padding-top: 8px;
+    margin: 3px 0px 0px 10px ;
 } 
+
+.copyright-info {
+    padding: 8px;
+    margin-top: 2px;
+}
 
 .interested-footer {
     font-weight: bold;
     text-align: left; 
     padding-top: 8px;
-    margin-top: 3px;
+    margin: 3px 0px 8px 10px;
 } 
 
-.interested-info {
-    padding: 5px;
-    margin: 2px;
+.btn-call {
+    padding-top: 5px; 
+    margin-left: 10px;
 }
-
 .social-header {
     font-weight: bold;
-    padding: 8px 5px 5px 5px;
-    margin: 3px 0px 10px 0px;
+    padding: 8px 5px 0px 5px;
+    margin: 3px 0px 5px 0px;
 } 
 
 .social-links { 

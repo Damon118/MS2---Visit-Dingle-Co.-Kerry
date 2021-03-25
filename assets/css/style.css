@@ -8,7 +8,8 @@ nav {
 }
 
 .logo-text {
-    margin-left: 65px;
+    padding: 2px;
+    margin: 0px 0px 5px 7px;
     text-transform: capitalize; 
     height: 40px;
     color: #4f8606;
@@ -111,12 +112,11 @@ footer {
 } 
 
 .social-links { 
-    padding: 5px;
-    background-color: #ffffff;
+    padding: 7px;
     text-align: center; 
-    line-height: 4px;
     border-radius: 50%; 
-    margin: 2px;
+    margin: 7px;
+    background-color: #8cdbf394;
 } 
 
 .list-unstyled {

@@ -1,7 +1,7 @@
 /* -Start of Navigation Section */
 
 nav {
-     background-color: #89D1FE;
+     background-color: 	#cdfccd;
 }
 .nav-spec {
     padding: 5px;
@@ -11,7 +11,7 @@ nav {
     margin-left: 65px;
     text-transform: capitalize; 
     height: 40px;
-    color: #ffffff; 
+    color: #4f8606;
     letter-spacing: 3px;
 }
 
@@ -23,21 +23,21 @@ a img {
 
 .nav-options {
     margin-left: 30px; 
-    color: #ffffff;
+    color: #4f8606;
 }
 
 #nav-list {
-    color: #ffffff;
+    color: #4f8606;
 }
 
 .nav-item {
     padding: 5px;
     margin-right: 35px; 
-    color: #ffffff;
+    color: #4f8606;
 }
 
 .nav-link-item {
-    color: #ffffff;
+    color: #4f8606;
 }
 
 /* - End of Navigation Section */
@@ -78,8 +78,8 @@ footer {
  bottom: 0;
  width: 100%; 
  height: fit-content;
- background-color: #89D1FE; 
- color: #ffffff;
+ background-color: #cdfccd;
+ color: #4f8606;
 }
 
 .uppercase {

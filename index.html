@@ -17,7 +17,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
+
 <body>
+
+    <!--Start of Navigation Section-->
 
     <nav class="navbar navbar-expand-md navbar-light text-white">
         <a class="navbar-brand logo-text" href="index.html"><img src="assets/images/experience-kerry.png" alt="Logo for Visit Dingle" />DISCOVER KERRY</a>
@@ -38,6 +41,10 @@
             </ul>
         </div>
     </nav> 
+
+    <!--End of Navigation Section-->
+
+    <!--Carousel Section-->
 
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
@@ -61,6 +68,48 @@
             </a>
     </div>
 
+    <!--End of Carousel Section-->
+
+     <!--Start of Modal Section - credit for code - https://mdbootstrap.com/docs/b4/jquery/modals/forms/ -->
+
+    <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title w-100 font-weight-bold">Book a call</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body mx-3">
+                    <div class="md-form mb-5">
+                         <label data-error="wrong" data-success="right" for="defaultForm-number">Your phone number</label>
+                         <input type="text" id="defaultForm-number" class="form-control validate" placeholder="Your phone number<">
+                    </div>
+
+                    <div class="md-form mb-4">
+                        <label data-error="wrong" data-success="right" for="defaultForm-date">Date:</label>
+                        <input type="date" id="defaultForm-date" class="form-control validate">
+                    </div>
+
+                    <div class="md-form mb-4">
+                        <label data-error="wrong" data-success="right" for="defaultForm-time">Time:</label>
+                        <input type="time" id="defaultForm-time" class="form-control validate">
+                    </div>
+
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+                    <button class="btn btn-success">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center">
+        <a href="" class="btn btn-primary btn-rounded mb-4" data-toggle="modal" data-target="#modalLoginForm">Book a free consultation!</a>
+    </div>
+
+    <!--End of Modal Section-->
 
 
 
@@ -77,8 +126,8 @@
 
                 <div class="col-md-4 d-none d-md-block">
                     <h6 class="uppercase interested-footer">Need further information?</h6>
-                        <a class="btn-floating btn-call href="contact.html">
-                            <button type="button" class="btn btn-primary">Book a call today!</button>
+                        <a class="btn-floating btn-call" href="contact.html">
+                            <button type="button" class="btn btn-primary">Contact us today!</button>
                         </a>
                 </div>
 

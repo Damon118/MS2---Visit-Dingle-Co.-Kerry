@@ -43,7 +43,7 @@ a img {
 
 /* - End of Navigation Section */
 
-/* -Start of Contact.html Page */
+/* -Start of Contact Form Section */
 
 #contact-container {
     background: url("../images/contact-image.jpeg"); 
@@ -67,9 +67,13 @@ a img {
     width: 100%; 
 }
 
+.contact-heading {
+    text-transform: capitalize;
+    font-weight: 600;
+    text-align: center;
+}
 
-
-
+/* -End of Contact Form Section */
 
 
 
@@ -104,12 +108,12 @@ footer {
     font-weight: bold;
     text-align: left; 
     padding-top: 8px;
-    margin: 3px 0px 8px 10px;
+    margin: 3px 0px 12px 10px;
 } 
 
 .btn-call {
     padding-top: 5px; 
-    margin-left: 10px;
+    margin-left: 20px;
 }
 .social-header {
     font-weight: bold;

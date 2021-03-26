@@ -43,12 +43,30 @@ a img {
 
 /* - End of Navigation Section */
 
-/* -Start of Visitor Testimonial Section */
+/* -Start of introduction Section in index.html */
+
+.introduction-heading { 
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600; 
+    height: 40px; 
+    width: 100%;
+    padding: 15px;
+    margin: 20px 0px 60px 0px;
+    text-transform: capitalize;
+} 
+
+.introduction-text {
+    width: 60%;
+}
+
+
+/* -Start of Visitor Testimonial Section in index.html */
 
 .visitor-testimonials-section {
     width: 100%;
-    padding-top: 30px;
-    margin: 2px; 
+    padding: 30px 0px 10px 0px;
+    margin: 15px 15px 60px 15px; 
     background-color: #ffffff;
 }
 
@@ -60,6 +78,7 @@ a img {
     width: 100%;
     padding: 15px;
     margin-bottom: 60px;
+    text-transform: capitalize;
 } 
 
 .visitor-testimonial-text {
@@ -100,7 +119,7 @@ a img {
   }
 }
 
-/* -Start of Contact Form Section */
+/* -Start of Contact Form Section in contact.html */
 
 #contact-container {
     background: url("../images/contact-image.jpeg"); 
@@ -137,7 +156,7 @@ a img {
     margin: 5px;
 }
 
-/* -End of Contact Form Section */
+/* -End of Contact Form Section in contact.html */
 
 
 

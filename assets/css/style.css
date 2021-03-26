@@ -57,13 +57,17 @@ a img {
 } 
 
 .introduction-text {
-    width: 60%; 
+    width: 85%;
     text-align: left; 
     font-family: 'Roboto', sans-serif; 
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     padding: 10px;
     margin: 5px; 
     line-height: 1.6;
+}
+
+.introduction-map {
+    padding: 5px; 
 }
 
 

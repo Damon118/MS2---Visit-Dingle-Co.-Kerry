@@ -45,41 +45,42 @@
     <div class="container-fluid contact-container"> 
             <div class="row contact-row">
                 <div class="col contact-col">
-                    <form class="needs-validation mx-auto w-50" onsubmit="return sendMail(this);" novalidate>
+                    <form id="form" class="needs-validation mx-auto w-50" onsubmit="return sendMail(this);" novalidate>
                         <div class="form-row contact-form">
                             <div class="col-md-12 mb-3">
                                 <h2 class="contact-heading">CONTACT US</h2>
+                                <hr class="hr-contact">
                             </div>
                             <div class="col-md-12 mb-3 form-item">
-                                <label for="first name">First name:</label>
-                                <input type="text" class="form-control" id="first name" placeholder="First name" name="firstname" required>
+                                <label for="first-name" class="contact-label">First name:</label>
+                                <input type="text" class="form-control" id="first-name" placeholder="First name" name="firstname" required>
                                 <div class="valid-feedback">
                                 Looks good!
                                 </div>
                             </div>
                             <div class="col-md-12 mb-3 form-item">
-                                <label for="last name">Last name:</label>
-                                <input type="text" class="form-control" id="last name" placeholder="Last name" name="lastname" required>
+                                <label for="last-name" class="contact-label">Last name:</label>
+                                <input type="text" class="form-control" id="last-name" placeholder="Last name" name="lastname" required>
                                 <div class="valid-feedback">
                                 Looks good!
                                 </div>
                             </div>
                             <div class="col-md-12 mb-3 form-item">
-                                <label for="contact-number">Contact number:</label>
+                                <label for="contact-number" class="contact-label">Contact number:</label>
                                 <input type="tel" class="form-control" id="contact-number" placeholder="Contact number" name="number" required>
                                 <div class="valid-feedback">
                                 Looks good!
                                 </div>
                             </div>
                             <div class="col-md-12 mb-3 form-item">
-                                <label for="email">Email Address:</label>
+                                <label for="email" class="contact-label">Email Address:</label>
                                 <input type="email" class="form-control" id="email" placeholder="Email" name="email" required>
                                 <div class="valid-feedback">
                                 Looks good!
                                 </div>
                             </div>
                             <div class="col-md-12 mb-3 form-item">
-                                <label for="message">How can we help you?</label>
+                                <label for="message" class="contact-label">How can we help you?</label>
                                 <textarea rows="6" type="text" class="form-control" id="message" placeholder="Your message" name="message" required></textarea>
                                 <div class="valid-feedback">
                                 Looks good!

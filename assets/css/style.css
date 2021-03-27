@@ -166,7 +166,7 @@ a img {
 
 .contact-container {
     position: relative; 
-    height: 120vh;
+    height: 130vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -194,21 +194,34 @@ a img {
 
 .contact-form { 
     position: relative;
-    background-color: #ffffff;
+    background-color: #8cdbf3;
     border-radius: 25px;
     border: 2px solid;
     padding: 20px; 
     margin: 50px 0px 20px 0px; 
     width: 100%; 
+    box-shadow: inset 0 0 0 3000px rgba(255,255,255,0.3);
 }
 
 .contact-heading {
+    color: #090c05;
     text-transform: capitalize;
     font-weight: 600;
     text-align: center; 
     padding: 2px;
     margin-bottom: 10px;
 } 
+
+.hr-contact {
+    border: 1px solid #090c05;
+    border-radius: 5px; 
+    width: 70%;
+}
+
+.contact-label {
+    color: #090c05; 
+    font-weight: 400;
+}
 
 .form-item {
     padding: 2px;

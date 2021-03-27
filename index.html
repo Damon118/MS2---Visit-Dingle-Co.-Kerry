@@ -21,17 +21,6 @@
     <script type="text/javascript">
         (function(){
         emailjs.init("user_n1G2ODhBSXnWUJk25kMji");
-        var templateParams = {
-            name: 'Damon',
-            notes: 'I would like a travel consultation at...'
-            };
-    
-        emailjs.send('gmail', 'template_ngde9d4', templateParams)
-        .then(function(response) {
-        console.log('SUCCESS!', response.status, response.text);
-        }, function(error) {
-        console.log('FAILED...', error);
-        });
         })();
     </script>
 </head>

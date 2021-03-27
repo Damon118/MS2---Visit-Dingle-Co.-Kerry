@@ -15,6 +15,11 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+        emailjs.init("user_n1G2ODhBSXnWUJk25kMji");
+        })();
+    </script>
 </head>
 <body>
 
@@ -41,42 +46,42 @@
     <div class="container-fluid contact-container"> 
             <div class="row contact-row">
                 <div class="col contact-col">
-                    <form class="needs-validation mx-auto w-50" novalidate>
+                    <form class="needs-validation mx-auto w-50" onsubmit="return sendMail(this);" novalidate>
                         <div class="form-row contact-form">
                             <div class="col-md-12 mb-3">
                                 <h2 class="contact-heading">CONTACT US</h2>
                             </div>
                             <div class="col-md-12 mb-3 form-item">
                                 <label for="first name">First name:</label>
-                                <input type="text" class="form-control" id="first name" placeholder="First name" required>
+                                <input type="text" class="form-control" id="first name" placeholder="First name" name="firstname" required>
                                 <div class="valid-feedback">
                                 Looks good!
                                 </div>
                             </div>
                             <div class="col-md-12 mb-3 form-item">
                                 <label for="last name">Last name:</label>
-                                <input type="text" class="form-control" id="last name" placeholder="Last name" required>
+                                <input type="text" class="form-control" id="last name" placeholder="Last name" name="lastname" required>
                                 <div class="valid-feedback">
                                 Looks good!
                                 </div>
                             </div>
                             <div class="col-md-12 mb-3 form-item">
                                 <label for="contact-number">Contact number:</label>
-                                <input type="number" class="form-control" id="contact-number" placeholder="Contact number" required>
+                                <input type="number" class="form-control" id="contact-number" placeholder="Contact number" name="number" required>
                                 <div class="valid-feedback">
                                 Looks good!
                                 </div>
                             </div>
                             <div class="col-md-12 mb-3 form-item">
                                 <label for="email">Email Address:</label>
-                                <input type="email" class="form-control" id="email" placeholder="Email" required>
+                                <input type="email" class="form-control" id="email" placeholder="Email" name="email" required>
                                 <div class="valid-feedback">
                                 Looks good!
                                 </div>
                             </div>
                             <div class="col-md-12 mb-3 form-item">
                                 <label for="message">How can we help you?</label>
-                                <textarea rows="6" type="text" class="form-control" id="message" placeholder="Your message" required></textarea>
+                                <textarea rows="6" type="text" class="form-control" id="message" placeholder="Your message" name="message" required></textarea>
                                 <div class="valid-feedback">
                                 Looks good!
                                 </div>
@@ -174,6 +179,8 @@
                 </div>
             </div>
     </footer> 
+
+    <script src="assets/js/sendEmailContact.js"></script>
     
 </body>
 </html>

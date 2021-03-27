@@ -163,20 +163,36 @@ a img {
 
 /* -Start of Contact Form Section in contact.html */
 
-#contact-container {
-    background: url("../images/contact-image.jpeg"); 
+.contact-container {
+    position: relative; 
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.contact-container::before {
+    content: " ";
+    background-image: url("../images/contact-image.jpeg"); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     opacity: 0.5; 
     height: 120vh;
-} 
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
 
 .contact-col {
     margin: auto; 
 }
 
 .contact-form { 
+    position: relative;
     background-color: #ffffff;
     border-radius: 25px;
     border: 2px solid;

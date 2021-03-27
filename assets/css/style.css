@@ -146,13 +146,8 @@ a img {
     
 } 
 
-@media only screen and (max-width: 600px) {
-  .visitor-testimonial-image {
-    margin-bottom: 30px;
-  }
-}
-
 /* -End of Visitor Testimonial Section in index.html */ 
+
 
 /* -Start of Modal Section in index.html */
 
@@ -166,7 +161,7 @@ a img {
 
 .contact-container {
     position: relative; 
-    height: 130vh;
+    height: 135vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -180,7 +175,7 @@ a img {
     background-position: center;
     background-size: cover;
     opacity: 0.5; 
-    height: 120vh;
+    height: 135vh;
     position: absolute;
     top: 0px;
     right: 0px;
@@ -192,9 +187,13 @@ a img {
     margin: auto; 
 }
 
+.form-container {
+    width: 60%;
+}
+
 .contact-form { 
     position: relative;
-    background-color: #8cdbf3;
+    background-color: #8cdbf3b9;
     border-radius: 25px;
     border: 2px solid;
     padding: 20px; 
@@ -287,3 +286,18 @@ footer {
 }
 
 /* -End of Footer Section*/
+
+
+/* -Start of Media Queries*/
+
+@media only screen and (max-width: 600px) {
+  .visitor-testimonial-image {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .form-container {
+    width: 80%;
+  }
+}

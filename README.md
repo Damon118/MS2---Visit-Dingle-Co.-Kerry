@@ -24,6 +24,56 @@
 
 ## Introduction 
 
+## Technologies
+
+
+### Programming Languages 
+
+- HTML5
+- CSS3 
+- Javascript
+
+### Version Control
+
+- Gitpod as the Integrated Development Environment (IDE)
+- Git as version Control
+- Github for repo hosting
+
+### Frameworks, Libraries & Programs Used
+
+#### Bootstrap 
+
+- [Bootstrap](https://getbootstrap.com/) was utilised for it's responsiveness and attractive, visually-pleasing styling features.
+
+#### jQuery
+
+- [jQuery](https://jquery.com/) was used as the Javascript library.
+
+#### Font Awesome 
+
+- [Font Awesome](https://fontawesome.com/) icons were used for aesthetic and user experience design.
+
+#### Google Fonts
+
+- [Google Fonts](https://fonts.google.com/) was chosen as the sole font library due to it's vast and comprehensive nature. 
+
+#### Balsamiq 
+
+- [Balsamiq](https://balsamiq.com/wireframes/?gclid=EAIaIQobChMI9Y3WjKvW7QIVDbDtCh3IqgeyEAAYASAAEgIw1_D_BwE) was used to create the mobile, tablet and desktop wireframes in the UX design.
+
+
+#### Google Maps API 
+
+- [Google Maps](https://www.google.com/maps) was for the interactive map for prosepctive visitors.  
+
+#### Logo 
+
+- [Canva](https://www.canva.com) was used to create and edit the site logo. 
+
+#### Mockups 
+
+- [AmIResponsive](http://ami.responsivedesign.is/) was used to create the mockups for the site.
+
 ## Deployment
 
 - This project was deployed to GitHub Pages using the following protocol: 

@@ -183,7 +183,7 @@
     <section> 
         <br>
         <br>
-        <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" onsubmit="return sendMail(this);">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header text-center">
@@ -194,17 +194,17 @@
                     </div>
                     <div class="modal-body mx-3">
                         <div class="md-form mb-4">
-                            <label data-error="wrong" data-success="right" for="defaultForm-number">Phone Number:</label>
+                            <label data-error="wrong" data-success="right" for="defaultForm-number" name="phone_number">Phone Number:</label>
                             <input type="text" id="defaultForm-number" class="form-control validate" placeholder="Phone Number">
                         </div>
 
                         <div class="md-form mb-4">
-                            <label data-error="wrong" data-success="right" for="defaultForm-date">Date:</label>
+                            <label data-error="wrong" data-success="right" for="defaultForm-date" name="date">Date:</label>
                             <input type="date" id="defaultForm-date" class="form-control validate">
                         </div>
 
                         <div class="md-form mb-4">
-                            <label data-error="wrong" data-success="right" for="defaultForm-time">Time:</label>
+                            <label data-error="wrong" data-success="right" for="defaultForm-time" name="time">Time:</label>
                             <input type="time" id="defaultForm-time" class="form-control validate">
                         </div>
 
@@ -274,9 +274,10 @@
                     </ul>
                 </div>
             </div>
-    </footer> 
+    </footer>
 
-    <!--End of Footer Sectio in index.html-->
+    <!--End of Footer Section in index.html-->
 
+    <script src="assets/js/sendEmailIndex.js"></script>
 </body>
 </html>

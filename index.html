@@ -4,18 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Experience Kerry!</title> 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
-        integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <link rel="shortcut icon" type="image/png" href="assets/images/optimized-favicon.png"> 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+        emailjs.init("user_n1G2ODhBSXnWUJk25kMji");
+        var templateParams = {
+            name: 'Damon',
+            notes: 'I would like a travel consultation at...'
+            };
+    
+        emailjs.send('gmail', 'template_ngde9d4', templateParams)
+        .then(function(response) {
+        console.log('SUCCESS!', response.status, response.text);
+        }, function(error) {
+        console.log('FAILED...', error);
+        });
+        })();
+    </script>
 </head>
 
 <body>
@@ -87,7 +105,7 @@
                 <div class="col-md-7 introduction-section-1">
                     <br>
                     <p class="introduction-text mx-auto"> County Kerry, in the peninsular southwestern region of Ireland, is known for its striking landscape, spectacular coastline and charming villages and towns. 
-                    Blessed with some of Irelands most iconic attractions, history, heritage, scenery and things to do, Kerry is undoubtedley among the best holiday destinations in Ireland, and indeed Europe.
+                    Blessed with some of Irelands most iconic attractions, history, heritage, scenery and things to do, Kerry is undoubtedley among the best holiday destinations in Ireland.
                     Kerry is the fifth largest county in ireland yet is one least populated by area, helping to give you that remote, tranquil and peaceful sentiment throughout your visit.</p>
                     <p class="introduction-text mx-auto"> With it's abundance of historical attractions, many of which are remarkably well preserved and cared for, there is so much to see and do. Kerry claims some of Ireland's most dramatic scenery, including the world-famous Lakes of Killarney
                     and the awe-inspiring landscapes of the Beara and Dingle peninsulas. If it's the people, music and atmosphere you’re looking for, take a trip to bustling towns of Killarney, Tralee, Dingle, Kenmare and Cahersiveen for a remarkable 
@@ -102,11 +120,11 @@
     </section>
 
     <!--End of Introduction Section-->
-    
+   
 
     <!--Start of Tourist Testimonials Section-->
 
-    <section class="visitor-testimonials-section"> 
+   <section class="visitor-testimonials-section"> 
             <h2 class="visitor-testimonials-heading">visitor testimonials <i class="fas fa-globe-americas"></i></h2>
             <hr class="hr-testimonials">
             <br>
@@ -158,8 +176,8 @@
             </div>
     </section>
 
-
     <!--End of Tourist Testimonials Section-->
+
 
     <!--Start of Modal Section - credit for code - https://mdbootstrap.com/docs/b4/jquery/modals/forms/ -->
     <section> 
@@ -259,8 +277,6 @@
     </footer> 
 
     <!--End of Footer Sectio in index.html-->
-
-    <script src="assets/js/carousel.js"></script>
 
 </body>
 </html>

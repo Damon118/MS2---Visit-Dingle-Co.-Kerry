@@ -1,21 +1,25 @@
-$(document).ready(function(){
-
-  $(".carousel").carousel();
-    
-  $(".carousel-inner").click(function(){
-    $(".carousel-item").carousel(0);
-  });
-  $(".carousel-inner").click(function(){
-    $(".carousel-item").carousel(1);
-  });
-  $(".carosel-inner").click(function(){
-    $(".carousel-item").carousel(2);
-  });
-    
-  $(".carousel-control-prev").click(function(){
-    $("#carouselExampleControls").carousel("prev");
-  });
-  $(".carouselExampleControls").click(function(){
-    $("#myCarousel").carousel("next");
-  });
+jQuery(document).ready(function($) {
+    "use strict";
+    //  TESTIMONIALS CAROUSEL HOOK
+    $('#customers-testimonials').owlCarousel({
+        loop: true,
+        center: true,
+        items: 3,
+        margin: 0,
+        autoplay: true,
+        dots:true,
+        autoplayTimeout: 8500,
+        smartSpeed: 450,
+        responsive: {
+          0: {
+            items: 1
+          },
+          768: {
+            items: 2
+          },
+          1170: {
+            items: 3
+          }
+        }
+    });
 });

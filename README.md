@@ -1,6 +1,4 @@
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Damon118/MS2---Visit-Dingle-Co.-Kerry)
-
-# MS2 Discover Kerry 
+# MS2 - Discover Kerry 
 
 ## Table of Contents 
 
@@ -24,14 +22,57 @@
 
 ## Introduction 
 
+## UX 
+
+#### Interaction design
+
+- Responsive and accesible on a range of devices. 
+- Visually pleasing displays. 
+- Low number of steps to book a travel consultation or contact.
+- The interface interacts with user actions as expected, the scroll/swipe actions respond with the normal behaviour and buttons acts instantly on press. These features generate a predictable
+  feel for the user.
+
+
+#### Information architecture 
+
+- Constructed with a focus on simplicity, so that no extraneous information and functionality is present and overload is avoided.
+- The content is organised and prioritised by importance from top to bottom and left to right in terms of position on the page. 
+
+### Wireframes 
+
+Home Page - **[View](./assets/wireframes/homepage.png)** 
+
+See & Do - **[View](./assets/wireframes/see&do.png)**
+
+Contact Us - **[View](./assets/wireframes/contact.png)**
+
+- These were the initial wireframes created during the project inception phase. As the project and my skills evolved, so too did the design of the site, hence, the wireframes do not exactly mirror the 
+  final project.
+
+
+## Design
+
+
+### Typography
+
+- The Roboto font was the chosen font for the body of this site with Sans Serif as the safe alternative in the case of Roboto not being imported 
+
+- Roboto is a widespread and visually-pleasing font style. Roboto is a neo-grotesque sans-serif typeface family developed by Google as the system font 
+  for its mobile operating system Android. I have seen it utilised effectively on a number of similar travel websites during my research and selected it for this project.
+
+### Imagery 
+
+- The imagery selected is a key feature for attracting prospective visitors and tourists. The large carousel on the home page comprising of three images is designed to be captivating, attention-grabbing and
+to show an example of the pictureque landscape that Kerry beholds.
+
 ## Technologies
 
 
 ### Programming Languages 
 
-- HTML5
-- CSS3 
-- Javascript
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+- [Javascript](https://en.wikipedia.org/wiki/JavaScript)
 
 ### Version Control
 

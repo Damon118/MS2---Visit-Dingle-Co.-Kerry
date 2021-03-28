@@ -157,6 +157,31 @@ a img {
     color: #ffffff;
 }
 
+/* -End of Modal Section in index.html */
+
+
+/* -Start of Google Maps API Section in thingstodo.html */
+
+div#map {min-height: 360px;} 
+
+/* -End of Google Maps API Section in thingstodo.html */ 
+
+
+/* -Start of Places To See Section in thingstodo.html */
+
+.places-heading {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600; 
+    height: 40px; 
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 60px;
+    text-transform: capitalize;
+}
+
+
+
 /* -Start of Contact Form Section in contact.html */
 
 .contact-container {

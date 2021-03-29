@@ -190,7 +190,7 @@ div#map {min-height: 360px;}
 /* -Start of Things To Do Section in thingstodo.html */ 
 
 .activities:hover{
-    box-shadow: 8px 8px 8px blue;
+    box-shadow: 8px 8px 8px rgba(102, 102, 235, 0.836);
     transform:scale(1.1);
 }
 
@@ -209,17 +209,13 @@ div#map {min-height: 360px;}
 
 .activities {
     padding: 5px;
-    margin: 15px; 
+    margin: 0 15px 0px 15px; 
     background-color: #8cdbf3b9; 
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     border-radius: 25px;
     border: 2px solid; 
     color: #ffffff; 
     text-align: center;
-}
-
-.activity-text {
-  
 }
 
 .btn-activity {

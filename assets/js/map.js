@@ -15,7 +15,17 @@ function initMap() {
             {lat: 52.2692835, lng: -9.7054085},
             {lat: 52.4472298, lng: -9.4846811}, 
     ];
+
+    var markers = locations.map(function(location, i) {
+        return new google.maps.Marker({
+            position: location,
+            label: labels[i % labels.length]
+        });
+    });
+
+    var markerCluster = new MarkerClusterer(map, markers, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
 }
+
 
 
 

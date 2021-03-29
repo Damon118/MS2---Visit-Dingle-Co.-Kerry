@@ -184,6 +184,35 @@ div#map {min-height: 360px;}
     max-height: 45px;
 }
 
+/* -End of Places To See Section in thingstodo.html */
+
+
+/* -Start of Things To Do Section in thingstodo.html */ 
+
+.activities-heading {
+    padding: 10px;
+    margin-bottom: 20px; 
+    text-transform: capitalize;
+}
+
+.activities {
+    padding: 5px;
+    margin: 15px; 
+    background-color: #8cdbf3b9; 
+    -webkit-box-shadow: 0.3rem 0.3rem 0.9rem 0.2rem;
+            box-shadow: 0.3rem 0.3rem 0.9rem 0.2rem;
+    border-radius: 25px;
+    border: 2px solid; 
+    color: #ffffff;
+}
+
+.activities-heading {
+    padding: 10px;
+    margin-bottom: 20px; 
+    text-transform: capitalize;
+    text-align: center;
+}
+
 
 /* -Start of Contact Form Section in contact.html */
 

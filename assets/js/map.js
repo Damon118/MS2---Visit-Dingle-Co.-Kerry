@@ -96,6 +96,48 @@ function initMapKillarney() {
     });
 }
 
+document.getElementById("btn-dingle").addEventListener("click", initMapDingle);
+
+function initMapDingle() {
+    const dingle = { lat: 52.1408381, lng: -10.2688831 };
+    const map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 10,
+        center: dingle,
+    });
+    const marker = new google.maps.Marker({
+        position: dingle,
+        map: map,
+    });
+}
+
+document.getElementById("btn-tralee").addEventListener("click", initMapTralee);
+
+function initMapTralee() {
+    const tralee = { lat: 52.2692835, lng: -9.7054085 };
+    const map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 10,
+        center: tralee,
+    });
+    const marker = new google.maps.Marker({
+        position: tralee,
+        map: map,
+    });
+}
+
+document.getElementById("btn-listowel").addEventListener("click", initMapListowel);
+
+function initMapListowel() {
+    const listowel = { lat: 52.4472298, lng: -9.4846811 };
+    const map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 10,
+        center: listowel,
+    });
+    const marker = new google.maps.Marker({
+        position: listowel,
+        map: map,
+    });
+}
+
 
 
 

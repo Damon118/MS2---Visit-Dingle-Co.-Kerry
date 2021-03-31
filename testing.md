@@ -3,13 +3,13 @@
 ### Table of Contents 
 
 
-1. [Code Validity](#Code Validity) 
+1. [Code Validity](# Code Validity) 
 
-2. [Performance Testing](#Performance Testing)
+2. [Performance Testing](# Performance Testing)
 
-3. [User Stories testing](#User Stories Testing)
+3. [User Stories testing](# User Stories Testing)
 
-4. [Known Bugs & Issues](#Known Bugs & Issues)
+4. [Known Bugs & Issues](# Known Bugs & Issues)
 
 
 ### Code Validity
@@ -43,17 +43,17 @@ syntax or structural errors within the code. The results of this testing are ind
 - The relevant corrections to the index.html page were made in two steps, which are represented by the first two images. Unfortunately, there was quite a number of syntax errors in the thingstodo.html page.
 These were rectified and the correct reports displayed below. The first testing of the contact page using the validation tool also came back with two errors and two warnings which are seen above.
 
-###### Valid Code Confirmation 
+#### Valid Code Confirmation 
 
-##### 1. index.html
+#### 1. index.html
 
 ![index.html](./assets/testing-images/homepass.png)
 
-##### 2. thingstodo.html
+#### 2. thingstodo.html
 
 ![thingstodo.html](./assets/testing-images/thingstodopass.png)
 
-##### 3. contact.html
+#### 3. contact.html
 
 ![index.html](./assets/testing-images/contactpass.png)
 
@@ -104,13 +104,39 @@ the user with some background information on the county and it's appeal as a hol
 
 ![Introduction](./assets/testing-images/introduction.png)
 
-- "I want to gain information on the places to visit in Kerry."
-- I want to have different options on activities to do in Kerry.
-- I want to view the scenery and landscape through imagery.
-- I want to be able to find social media links and resources for further information.
-- I want to see the recommended spots to visit on an interactive map.
-- I want an intuitive site navigation and design. 
-- I want to see testimonials from people who have visited Kerry.
+- "I want to gain information on the places to visit in Kerry." This requirement is met through the use of four informative cards on the see and do page. they
+represent a brief introduction on four of the most popular tourist towns to visit in Kerry, with a link to view the relevant areas on the map. 
+
+![Map](./assets/testing-images/placestosee.png)
+
+- "I want to have different options on activities to do in Kerry." This requirement is met through the presence of an interactive things to do section. The user is
+present with 4 buttons, that when clicked, display information about either hillwalking, cycling, swimming or camping. These would be among the most prominent tourist 
+activities people would engage in when visiting Kerry.
+
+![Thingstodo](./assets/testing-images/thingstodo.png)
+
+
+- "I want to view the scenery and landscape through imagery." This requirement is met immediately on the home page. The user is presented with a carousel of three spectacular
+images capturing the landscape and scenery that Kerry has to offer. 
+
+![Imagery](./assets/testing-images/imagery.png)
+
+
+- "I want to be able to find social media links and resources for further information." This requirement is met as the social media links are present in the footer and clickable. The contact 
+form and download brochure button provide options for obtaining further information. 
+
+![Contact](./assets/testing-images/contactform.png)
+
+- "I want to see the recommended spots to visit on an interactive map." This requirement is met through the use of the Google Maps Api. There are four markers on the map which correspond to
+the recommended places to visit cards. The markers are clickable and provide some further information about the location to the user. 
+
+![Map](./assets/testing-images/interactivemap.png)
+ 
+"- I want to see testimonials from people who have visited Kerry." This requirement is met through the presence of visitor testimonials on the home page which help inspire confidence
+in the site purpose and add that personal touch.
+
+![Testimonials](./assets/testing-images/testimonials.png)
+
 
 ### Known Bugs & Issues
 

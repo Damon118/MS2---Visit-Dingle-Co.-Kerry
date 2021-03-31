@@ -100,7 +100,7 @@ into booking a visit or seeking further information.
 
 ### Colour Schemes
 
-![Colour Schemes](.assets/ms2color.png)
+![Colour Schemes](.assets/images/ms2colour.png)
 
 ## Technologies
 

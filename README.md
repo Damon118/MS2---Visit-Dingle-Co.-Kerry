@@ -52,12 +52,16 @@ The UX is simple, user-friendly and intuitive, providing an ease of navigation t
 - Cultivate an interest in visiting Kerry and promote engagement with prospective tourists through the use of a contact form.
 - Provide an interactive map for site users with locations and corresponding descriptions.
 
-#### User Goals 
+#### User Stories
 
-- Gain information on the attractions and activities Kerry has to offer.
-- Have different options on things to do and places to visit.
-- View the scenery and landscape through imagery.
-- Intuitive site navigation. 
+- I want to get some background information on Kerry.
+- I want to gain information on places to visit in Kerry.
+- I want to have different options on things to do and places to visit.
+- I want to view the scenery and landscape through imagery.
+- I want to be able to find social media links and resources for further information.
+- I want to see the recommended spots to visit on an interactive map.
+- I want an intuitive site navigation and design. 
+- I want to see testimonials from people who have visited Kerry.
 
 ### 2. Scope
 

@@ -1,5 +1,17 @@
 ## Testing
 
+### Table of Contents 
+
+
+1. [Code Validity](#Code Validity) 
+
+2. [Performance Testing](#Performance Testing)
+
+3. [User Stories testing](#User Stories Testing)
+
+4. [Known Bugs & Issues](#Known Bugs & Issues)
+
+
 ### Code Validity
 
 #### HTML
@@ -10,23 +22,23 @@ syntax or structural errors within the code. The results of this testing are ind
 
 ##### 1. index.html 
 
-![index.html](./assets/images/indexv1.1.png)
+![index.html](./assets/testing-images/indexv1.1.png)
 
 ##### 2. index.html (after first attempt)
 
-![index.html](./assets/images/indexv1.2.png)
+![index.html](./assets/testing-images/indexv1.2.png)
 
 ##### 3. thingstodo.html (part 1)
 
-![thingstodo.html](./assets/images/thingstodov1.png)
+![thingstodo.html](./assets/testing-images/thingstodov1.png)
 
 ##### 4. thingstodo.html (part 2)
 
-![thingstodo.html](./assets/images/thingstodov1.png) 
+![thingstodo.html](./assets/testing-images/thingstodov1.png) 
 
 ##### 5. contact.html
 
-![contact.html](./assets/images/contactv.png) 
+![contact.html](./assets/testing-images/contactv.png) 
 
 - The relevant corrections to the index.html page were made in two steps, which are represented by the first two images. Unfortunately, there was quite a number of syntax errors in the thingstodo.html page.
 These were rectified and the correct reports displayed below. The first testing of the contact page using the validation tool also came back with two errors and two warnings which are seen above.
@@ -35,15 +47,15 @@ These were rectified and the correct reports displayed below. The first testing 
 
 ##### 1. index.html
 
-![index.html](./assets/images/homepass.png)
+![index.html](./assets/testing-images/homepass.png)
 
 ##### 2. thingstodo.html
 
-![thingstodo.html](./assets/images/thingstodopass.png)
+![thingstodo.html](./assets/testing-images/thingstodopass.png)
 
 ##### 3. contact.html
 
-![index.html](./assets/images/contactpass.png)
+![index.html](./assets/testing-images/contactpass.png)
 
 
 #### CSS 
@@ -51,7 +63,7 @@ These were rectified and the correct reports displayed below. The first testing 
 - The CSS was validated online using the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/). The site was validated using this online tool to ensure that there were no 
 syntax or structural errors within the code and was entered into the validator tool by direct input. The report came back with no errors.
 
-![css](./assets/images/cssvalid.png)
+![css](./assets/testing-images/cssvalid.png)
 
 
 #### JS 
@@ -79,12 +91,26 @@ syntax or structural errors within the code and was entered into the validator t
 
 #### Desktop: 
 
-![Desktop](./assets/images/desktopperformance.png) 
+![Desktop](./assets/testing-images/desktopperformance.png) 
 
 #### Mobile: 
 
-![Mobile](./assets/images/mobileperformance.png)
+![Mobile](./assets/testing-images/mobileperformance.png)
 
+### User Stories Testing
+
+- "I want to get some background information on Kerry." This requirement is met by an informative introduction section on the home page. This provides
+the user with some background information on the county and it's appeal as a holiday destination. 
+
+![Introduction](./assets/testing-images/introduction.png)
+
+- "I want to gain information on the places to visit in Kerry."
+- I want to have different options on activities to do in Kerry.
+- I want to view the scenery and landscape through imagery.
+- I want to be able to find social media links and resources for further information.
+- I want to see the recommended spots to visit on an interactive map.
+- I want an intuitive site navigation and design. 
+- I want to see testimonials from people who have visited Kerry.
 
 ### Known Bugs & Issues
 

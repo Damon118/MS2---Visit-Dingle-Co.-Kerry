@@ -85,15 +85,16 @@ Contact Us - **[View](./assets/wireframes/contact.png)**
 
 ### Typography
 
-- The Roboto font was the chosen font for the body of this site with Sans Serif as the safe alternative in the case of Roboto not being imported 
+- The ABeeZee font was the chosen font for the body of this site with Sans Serif as the safe alternative in the case of ABeeZee not being imported 
 
-- Roboto is a widespread and visually-pleasing font style. Roboto is a neo-grotesque sans-serif typeface family developed by Google as the system font 
-  for its mobile operating system Android. I have seen it utilised effectively on a number of similar travel websites during my research and selected it for this project.
+- ABeeZee is a widespread and visually-pleasing font style. ABeeZee is and open, friendly and simple font developed by Google. I have seen it utilised e
+  effectively in a number of similar informational websites during my research and selected it for this project.
 
 ### Imagery 
 
 - The imagery selected is a key feature for attracting prospective visitors and tourists. The large carousel on the home page comprising of three images is designed to be captivating, attention-grabbing and
-to show an example of the pictureque landscape that Kerry beholds.
+to show an example of the pictureque landscape that Kerry beholds. The purpose of the beautiful imagery is to nurture interest in the area and entice those with an interest in sightseeing or landscapes
+into booking a visit or seeking further information.
 
 ## Technologies
 
@@ -181,7 +182,7 @@ to show an example of the pictureque landscape that Kerry beholds.
 
 ### Code
 
-- The customer testimonials in the homepapage and the product benefits listed in aboutus.html were inspired by the Bootstrapping Your Next Big Idea Videos by Matt Rudge of the Code Institute.
+- The visitor testimonials in the homepapage were inspired by the Bootstrapping Your Next Big Idea Videos by Matt Rudge of the Code Institute.
 - [Stack Overflow](https://stackoverflow.com/) and [w3schools](https://www.w3schools.com/).
 
 ### Acknowledgements 

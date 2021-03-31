@@ -8,19 +8,24 @@
 syntax or structural errors within the code. The results of this testing are indicated below in the relevant sections.
 
 
-1. index.html
+1. index.html 
+
 ![index.html](./assets/images/indexv1.1.png)
 
-2. index.html
+2. index.html (after first attempt)
+
 ![index.html](./assets/images/indexv1.2.png)
 
 3. thingstodo.html part 1
+
 ![thingstodo.html](./assets/images/thingstodov1.png)
 
 4. thingstodo.html part 2
+
 ![thingstodo.html](./assets/images/thingstodov1.png) 
 
 5. contact.html
+
 ![contact.html](./assets/images/contactv.png) 
 
 - The relevant corrections to the index.html page were made in two steps, which are represented by the first two images. Unfortunately, there was quite a number of syntax errors in the thingstodo.html page.
@@ -39,4 +44,9 @@ These were rectified and the correct reports displayed below. The first testing 
 
 
 #### CSS 
+
+- -The CSS was validated online using the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/). The site was validated using this online tool to ensure that there were no 
+syntax or structural errors within the code and was entered into the validator tool by direct input. The report came back with no errors.
+
+![css](./assets/images/cssvalid.png)
 

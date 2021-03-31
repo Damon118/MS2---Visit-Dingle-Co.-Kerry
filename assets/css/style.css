@@ -232,7 +232,7 @@ div#map {min-height: 360px;}
     margin: 20px 0px 20px 0px;
 }
 
-.btn-activity::hover{
+.btn-activity:hover{
     box-shadow: 8px 8px 8px rgba(102, 102, 235, 0.836);
     transform:scale(1.1);
 }

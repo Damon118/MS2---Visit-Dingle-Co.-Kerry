@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=ABeeZee&family=swap");
+
 /* General */
 
 body {
@@ -45,7 +46,8 @@ a img {
 
 /* - End of Navigation Section */
 
-/* -Start of introduction Section in index.html */
+
+/* -Start of Introduction Section in index.html */
 
 #introduction {
     background-color: #deebdd;
@@ -84,7 +86,7 @@ a img {
     padding: 5px; 
 }
 
-/* -End of introduction Section in index.html */
+/* -End of Introduction Section in index.html */
 
 
 /* -Start of Visitor Testimonial Section in index.html */
@@ -106,7 +108,6 @@ a img {
     margin-bottom: 60px;
     text-transform: capitalize;
 } 
-
 
 .hr-testimonials {
     border: 1px solid #4f8606;
@@ -149,7 +150,7 @@ a img {
 /* -End of Visitor Testimonial Section in index.html */ 
 
 
-/* -Start of Modal Section in index.html */
+/* -Start of Book Brochure button in index.html */
 
 .btn-book {
     border: solid 2px #eb4a19;
@@ -157,7 +158,7 @@ a img {
     color: #ffffff;
 }
 
-/* -End of Modal Section in index.html */
+/* -End of Book Brochure button in index.html */
 
 
 /* -Start of Google Maps API Section in thingstodo.html */
@@ -184,8 +185,6 @@ div#map {min-height: 360px;}
     max-height: 45px;
 }
 
-/* -End of Places To See Section in thingstodo.html */
-
 .card-container {
     background-color: #f5f3ef;
     box-shadow: rgba(0, 0, 0, 0.75) 0px 2px 2px;
@@ -205,6 +204,8 @@ div#map {min-height: 360px;}
     margin-left: 20px;
 }
 
+/* -End of Places To See Section in thingstodo.html */
+
 
 /* -Start of Things To Do Section in thingstodo.html */ 
 
@@ -214,7 +215,7 @@ div#map {min-height: 360px;}
 
 .btn-activity {
     padding: 5px;
-    margin: 10px 0px 8px 0px;
+    margin: 10px 3px 8px 3px;
     border: solid 2px #eb4a19;
     background-color: #ee7651ea; 
     color: #ffffff;
@@ -255,6 +256,8 @@ div#map {min-height: 360px;}
     padding: 5px;
     margin: 10px 5px 5px 5px;
 }
+
+/* -End of Things To Do Section in thingstodo.html */ 
 
 /* -Start of Contact Form Section in contact.html */
 
@@ -328,6 +331,7 @@ div#map {min-height: 360px;}
 
 /* -End of Contact Form Section in contact.html */
 
+
 /* -Start of Footer Section*/
 
 footer {
@@ -380,7 +384,7 @@ footer {
 /* -End of Footer Section*/
 
 
-/* -Start of Media Queries*/
+/* -Media Queries*/
 
 @media only screen and (max-width: 600px) {
   .visitor-testimonial-image {

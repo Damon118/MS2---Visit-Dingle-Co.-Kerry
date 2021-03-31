@@ -8,6 +8,12 @@
 
 [Introduction](#Introduction) 
 
+The purpose of this project is to promote Co. Kerry in Ireland to prospective visitors and tourists. This is done through captivating and stunning imagery of the landscape
+and a detailed description of places to visit and activities to do. It's a 3-page website consisting of a home page, see and do page and a contact page, with an option
+to download a brochure and make enquiries for further information. The project incorporates a simple, intuitive design provide optimal user experience and produces a real-life 
+demonstration of my development expertise for my interactive frontend development milestone project. It’s designed to be responsive and accessible on a range of devices, making 
+it easy to navigate for potential customers. The project can be further enhanced and built on to incorporate hotel, room and travel booking functionalities.
+
 [UX](#UX)
 
 [Design](#Design) 

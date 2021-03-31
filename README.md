@@ -6,19 +6,20 @@
 
 ## Table of Contents 
 
-[Introduction](#Introduction) 
 
-[UX](#UX)
+1. [Introduction](#Introduction) 
 
-[Features](#Features)
+2. [UX](#UX)
 
-[Technologies](#Technologies) 
+3. [Features](#Features)
 
-[Testing](#Testing)
+4. [Technologies](#Technologies) 
 
-[Deployment](#Deployment) 
+5. [Testing](#Testing)
 
-[Credits](#Credits)
+6. [Deployment](#Deployment) 
+
+7. [Credits](#Credits)
 
 
 
@@ -249,6 +250,15 @@ into booking a visit or seeking further information.
 
 - [AmIResponsive](http://ami.responsivedesign.is/) was used to create the mockups for the site.
 
+#### Colour Palette
+
+- [Coolors](https://coolors.co/) was used to prepare the colour palette included in this README.md file.
+
+## Testing
+
+- Testing documentation can be found in a separate testing.md file [here](testing.md)
+
+
 ## Deployment
 
 - This project was deployed to GitHub Pages using the following protocol: 
@@ -271,6 +281,7 @@ into booking a visit or seeking further information.
 7. Alter the current working directory to the location the clone is to be made 
 8. Type "git clone" and paste the copied URL 
 9. Press enter and the local clone is made
+
 
 ## Credits
 

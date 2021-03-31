@@ -16,11 +16,11 @@ syntax or structural errors within the code. The results of this testing are ind
 
 ![index.html](./assets/images/indexv1.2.png)
 
-##### 3. thingstodo.html part 1
+##### 3. thingstodo.html (part 1)
 
 ![thingstodo.html](./assets/images/thingstodov1.png)
 
-##### 4. thingstodo.html part 2
+##### 4. thingstodo.html (part 2)
 
 ![thingstodo.html](./assets/images/thingstodov1.png) 
 
@@ -56,7 +56,7 @@ syntax or structural errors within the code and was entered into the validator t
 
 #### JS 
 
-- The JavaScript files were validated using JSHint and no errors were recorded. No errors were recorded in the DevTools either.
+- The JavaScript files were validated using [JSHint](https://jshint.com/) and no errors were recorded. No errors were recorded in the DevTools either.
 
 ### Performance Testing 
 
@@ -85,3 +85,15 @@ syntax or structural errors within the code and was entered into the validator t
 
 ![Mobile](./assets/images/mobileperformance.png)
 
+
+### Known Bugs & Issues
+
+- The contact form length was too excessive on mobile devices so the layout was slightly altered using a media query for small screen sizes
+
+- Removed the fixed-bottom class on the footer as too much screen real estate was being lost in combination with a fixed header. 
+
+- The images in the carousel were compressed using (TinyPNG)[https://tinypng.com/] as they were causing the home page loading time to be too long.
+
+- Unsolved issue: For better UX, I wanted the toggle buttons on the thingstodo.html for the 4 activities to be clickable more than once. Currently,
+they can only be clicked once and the corresponding text only displayed once. I will take the neccessary steps to learn how to implement this functionality 
+going forward.

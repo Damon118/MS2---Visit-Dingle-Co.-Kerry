@@ -254,6 +254,8 @@ into booking a visit or seeking further information.
 
 - [Coolors](https://coolors.co/) was used to prepare the colour palette included in this README.md file.
 
+- The images for the carousel were compressed using [tiny png](https://tinypng.com/)
+
 ## Testing
 
 - Testing documentation can be found in a separate testing.md file [here](testing.md)
@@ -261,7 +263,7 @@ into booking a visit or seeking further information.
 
 ## Deployment
 
-- This project was deployed to GitHub Pages using the following protocol: 
+This project was deployed to GitHub Pages using the following protocol: 
 
 1. Sign in to GitHub and select the revelvant repository
 2. Click the settings tab in the menu
@@ -289,15 +291,27 @@ into booking a visit or seeking further information.
 ### Content 
 
 - All content was written by myself, Damon Gaffney, for the purpose of my Professional Diploma in Full Stack Software Development with Code Institute.
+- The information was sourced through a combination of [wikipedia](https://www.wikipedia.org/), [lonely planet](https://www.lonelyplanet.com/), [discover Kerry](https://www.discoverkerry.com/en/)
+  [Kerry County Council](https://www.kerrycoco.ie/tourism/), [Kerry Tourism](https://www.kerrytourism.ie/) and my own knowledge.
+- The map is from the [Google Maps API](https://developers.google.com/maps)
+- The email functionality is provided by [EamilJS](https://www.emailjs.com/)
+
 
 ### Media 
 
-- All images were sourced using the advanced search function in Google Images to select those that were free of copyright. 
+- The three carousel images were obtained from [Unsplash](https://unsplash.com/)
+- All remaining images were sourced using the advanced search function in Google Images to select those that were free of copyright. 
+- The images for the carousel were compressed using [tiny png](https://tinypng.com/)
+- The logo was created by myself with [Canva](https://www.canva.com/)
+
 
 ### Code
 
-- The visitor testimonials in the homepapage were inspired by the Bootstrapping Your Next Big Idea Videos by Matt Rudge of the Code Institute.
-- [Stack Overflow](https://stackoverflow.com/) and [w3schools](https://www.w3schools.com/).
+- I reveiwed the Code Institute lecture series on implementing EmailJS adapted the methodology to fit my project purpose.
+- The visitor testimonials in the homeppage were inspired by the Bootstrapping Your Next Big Idea Videos by Matt Rudge of the Code Institute.
+- [Stack Overflow](https://stackoverflow.com/) was used for my toggle button JS code and Google Map with Markers and Description
+- [w3schools](https://www.w3schools.com/) as a general reference source.
+
 
 ### Acknowledgements 
 

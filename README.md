@@ -36,7 +36,7 @@ enhanced and built on to incorporate hotel, room and travel booking functionalit
 ## UX 
 
 
-- The UX is simple, user-friendly and intuitive, providing an ease of navigation through the site. 
+The UX is simple, user-friendly and intuitive, providing an ease of navigation through the site. 
 
 
 ### 1. Strategy
@@ -240,7 +240,7 @@ into booking a visit or seeking further information.
 
 #### Google Maps API 
 
-- [Google Maps](https://www.google.com/maps) was for the interactive map for prosepctive visitors.  
+- [Google Maps](https://www.google.com/maps) was for the interactive map for prospective visitors.  
 
 #### Logo 
 

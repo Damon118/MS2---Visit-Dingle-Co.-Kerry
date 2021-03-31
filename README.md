@@ -87,8 +87,8 @@ Contact Us - **[View](./assets/wireframes/contact.png)**
 
 - The ABeeZee font was the chosen font for the body of this site with Sans Serif as the safe alternative in the case of ABeeZee not being imported 
 
-- ABeeZee is a widespread and visually-pleasing font style. ABeeZee is and open, friendly and simple font developed by Google. I have seen it utilised e
-  effectively in a number of similar informational websites during my research and selected it for this project.
+- ABeeZee is a widespread and visually-pleasing font style. ABeeZee is an open, friendly and simple font developed by Google. I have seen it utilised
+  effectively in a number of similar informational websites during my research, and therefore selected it for this project.
 
 ### Imagery 
 
@@ -99,6 +99,8 @@ into booking a visit or seeking further information.
 ![Carousel-image](./assets/images/kerryhr1rs.jpeg)
 
 ### Colour Schemes
+
+![Colour Schemes](.assets/ms2color.png)
 
 ## Technologies
 

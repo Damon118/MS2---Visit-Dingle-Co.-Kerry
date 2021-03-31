@@ -112,15 +112,38 @@
                 </div>
                 <div class="col-12 activities"> 
                     <div class="mx-auto">
-                        <a id="btn-hillwalking"  class="btn btn-activity btn-primary" href="#" onclick="displayHillWalking()"">Hillwalking</a>
-                        <a id="btn-cycling"  class="btn btn-activity btn-primary" href="#" onclick="displayCyclin()"">Cycling</a>
-                        <a id="btn-swimming"  class="btn btn-activity btn-primary" href="#" onclick="displaySwimming()">"Swimming</a>
-                        <a id="btn-camping"  class="btn btn-activity btn-primary" href="#" onclick="displayCamping()"">Camping</a>
+                        <button data-toggle="tab" data-target="#hillwalking" type="button"  class="btn btn-activity btn-primary">Hillwalking</a>
+                        <button data-toggle="tab" data-target="#cycling" type="button" class="btn btn-activity btn-primary" >Cycling</a>
+                        <button data-toggle="tab" data-target="#swimming" type="button"  class="btn btn-activity btn-primary">"Swimming</a>
+                        <button data-toggle="tab" data-target="#camping" type="button"  class="btn btn-activity btn-primary">Camping</a>
                     </div> 
                 </div> 
-                 <div id="activity" class="col-12">
+                <div class="col-6">
+                    <img class="img-fluid" src="assets/images/kerrylogo.jpeg" alt="kerry logo">
+
+                </div>
+                <div id="activity" class="col-6 tab-contents">
+                     <div class="tab active" id="hillwalking">
+                        <h4>Hillwalking</h4>
+                     </div>
+                     <div class="tab" id="cycling">
+                        <h4>Cycling</h4>
+                     </div>
+                     <div class="tab" id="swimming">
+                        <h4>Swimming</h4>
+                     </div>
+                     <div class="tab" id="camping">
+                        <h4>Camping</h4>
+                     </div>
+                 </div>
+
+
+                    <!--
                      <h4 class="activities-heading">Where to do it?</h4>
-                     <p><span id="activity-text"></span></p>
+                     <p id="hillwalking-text">A</p>
+                     <p id="cycling-text">B</p>
+                     <p id="swimming-text">C</p>
+                     <p id="camping-text">D</p>-->
                 
                 </div>
             </div>

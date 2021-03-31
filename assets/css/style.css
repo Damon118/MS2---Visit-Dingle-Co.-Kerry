@@ -227,6 +227,13 @@ div#map {min-height: 360px;}
     transform:scale(1.1);
 }
 
+.tab-contents .tab {
+  display: none;
+}
+.tab-contents .tab.active {
+  display: block;
+}
+
 /* -Start of Contact Form Section in contact.html */
 
 .contact-container {

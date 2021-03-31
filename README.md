@@ -1,5 +1,9 @@
 # MS2 - Discover Kerry 
 
+[View live website on GitHub pages](https://damon118.github.io/MS2-Discover-Kerry/)
+
+![Mockups](./assets/images/mockups.png)
+
 ## Table of Contents 
 
 [Introduction](#Introduction) 
@@ -122,7 +126,7 @@ to show an example of the pictureque landscape that Kerry beholds.
 1. Sign in to GitHub and select the revelvant repository
 2. Click the settings tab in the menu
 3. Scroll down to the Settings page until you arrive at the "GitHub Pages" Section
-4. Under the source heading, select the master branch option
+4. Under the source heading, select the gitpod-setup branch option and click save
 5. The page will refresh and deployment to GitHub Pages completed
 6. Scroll back to the GitHub pages section and click on the link above the source heading to view the live site
 

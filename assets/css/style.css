@@ -222,6 +222,13 @@ div#map {min-height: 360px;}
     width: 15%;
 }
 
+#activity {
+    background-color: #f5f3ef;
+    box-shadow: rgba(0, 0, 0, 0.75) 0px 2px 2px; 
+    border-radius: 25px;
+    margin: 20px 0px 20px 0px;
+}
+
 .btn-activity::hover{
     box-shadow: 8px 8px 8px rgba(102, 102, 235, 0.836);
     transform:scale(1.1);
@@ -232,6 +239,19 @@ div#map {min-height: 360px;}
 }
 .tab-contents .tab.active {
   display: block;
+}
+
+.toggle-heading {
+    padding: 5px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.activity-text {
+    width: 90%;
+    padding: 5px;
+    margin: 10px 5px 5px 5px;
 }
 
 /* -Start of Contact Form Section in contact.html */

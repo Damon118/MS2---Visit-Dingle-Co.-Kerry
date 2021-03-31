@@ -36,7 +36,11 @@ enhanced and built on to incorporate hotel, room and travel booking functionalit
 
 ## UX 
 
-### Business Goals 
+- The UX is simple, user-friendly and intuitive, providing an ease of navigation through the site. 
+
+### 1. Strategy
+
+#### Business Goals 
 
 - The principal purpose of this site is to market Kerry as an amazing holiday destination. 
 - Provide a good user experience. 
@@ -46,13 +50,33 @@ enhanced and built on to incorporate hotel, room and travel booking functionalit
 - Cultivate an interest in visiting Kerry and promote engagement with prospective tourists through the use of a contact form.
 - Provide an interactive map for site users with locations and corresponding descriptions.
 
-### User Goals 
+#### User Goals 
 
 - Gain information on the attractions and activities Kerry has to offer.
 - Have different options on things to do and places to visit.
 - View the scenery and landscape through imagery.
 - Intuitive site navigation. 
 
+### 2. Scope
+
+#### Scope 
+
+- Site aim and purpose is immediately evident to user.
+- Intutive interface, allowing the user to decide where they wish to navigate to or what content they want displayed.
+- Interactive elements that showcase places to visit and activities to do in Kerry.
+- The website has a contact form for any enquiries and social media links to follow.
+
+### 3. Structure 
+
+- The site is organised into three pages.
+- The navbar is fixed at the top of the screen and allows the user to navigate to each page. The current page is highlighted in the navbar and the site logo
+  links to the home page.
+- The carousel on the home page showcases some example of the scenery in Kerry.
+- The introduction paragraph on the home page gives the user a brief synopsis on the county. 
+- The second page is interactive and the user can make choices about what content is displayed and where they are viewing on the map.
+- The content is clearly divided into sections so the user is clear on what the information they are viewing relates to.
+- The website contains a form for enquiries.
+- The footer has copyright information, a button that links to the contact form and social media links.
 
 #### Interaction design
 
@@ -68,7 +92,9 @@ enhanced and built on to incorporate hotel, room and travel booking functionalit
 - Constructed with a focus on simplicity, so that no extraneous information and functionality is present and overload is avoided.
 - The content is organised and prioritised by importance from top to bottom and left to right in terms of position on the page. 
 
-### Wireframes 
+### 3. Skeleton 
+
+#### Wireframes 
 
 Home Page - **[View](./assets/wireframes/homepage.png)** 
 

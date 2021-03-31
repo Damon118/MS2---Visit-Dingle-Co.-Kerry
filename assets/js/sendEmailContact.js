@@ -10,7 +10,7 @@ function sendMail(contactForm) {
     .then(
         function () {
                 document.getElementById("btn-submit").innerHTML = "Submitted!";
-                alert("Thank you, we will be in touch soon!")
+                alert("Thank you, we will be in touch soon!");
 
             },
             function (error) {

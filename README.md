@@ -10,8 +10,6 @@
 
 [UX](#UX)
 
-[Design](#Design) 
-
 [Features](#Features)
 
 [Technologies](#Technologies) 
@@ -36,9 +34,12 @@ enhanced and built on to incorporate hotel, room and travel booking functionalit
 
 ## UX 
 
+
 - The UX is simple, user-friendly and intuitive, providing an ease of navigation through the site. 
 
+
 ### 1. Strategy
+
 
 #### Business Goals 
 
@@ -92,7 +93,11 @@ enhanced and built on to incorporate hotel, room and travel booking functionalit
 - Constructed with a focus on simplicity, so that no extraneous information and functionality is present and overload is avoided.
 - The content is organised and prioritised by importance from top to bottom and left to right in terms of position on the page. 
 
-### 3. Skeleton 
+### 4. Skeleton
+
+- Fixed navigation menu with logo and navigation links. Reduces to a dropdown navigation button for small screens.
+- Home, Things To Do and Contact Pages.
+- Footer with button bringing user to contact form and social media icons.
 
 #### Wireframes 
 
@@ -105,18 +110,17 @@ Contact Us - **[View](./assets/wireframes/contact.png)**
 - These were the initial wireframes created during the project inception phase. As the project and my skills evolved, so too did the design of the site, hence, the wireframes do not exactly mirror the 
   final project.
 
+### 5. Surface
 
-## Design
 
-
-### Typography
+#### Typography
 
 - The ABeeZee font was the chosen font for the body of this site with Sans Serif as the safe alternative in the case of ABeeZee not being imported 
 
 - ABeeZee is a widespread and visually-pleasing font style. ABeeZee is an open, friendly and simple font developed by Google. I have seen it utilised
   effectively in a number of similar informational websites during my research, and therefore selected it for this project.
 
-### Imagery 
+#### Imagery 
 
 - The imagery selected is a key feature for attracting prospective visitors and tourists. The large carousel on the home page comprising of three images (see example below) is designed to be captivating, attention-grabbing and
 to show an example of the pictureque landscape that Kerry beholds. The purpose of the beautiful imagery is to nurture interest in the area and entice those with an interest in sightseeing or landscapes
@@ -124,7 +128,7 @@ into booking a visit or seeking further information.
 
 ![Carousel-image](./assets/images/kerryhr1rs.jpeg)
 
-### Colour Schemes
+#### Colour Schemes
 
 - The colours were chosen as they provide an appealing user interface and complement the imagery. The colours are soft, to match the the theme of the website - nature and beauty.
 
@@ -133,6 +137,67 @@ into booking a visit or seeking further information.
   for the contact form.
 
 ![Colour Schemes](./assets/images/ms2colour.png)
+
+## Features
+
+### Common Features To All Pages 
+
+- Responsive on all device sizes
+
+- Interactive elements 
+
+- The website is divided into three separate pages - a home page, a things to do page, and a contact page.
+
+- Designed with HTML5, CSS3, Bootstrap, Javascript and jQuery.
+
+- Header 
+
+  - Each page has the same header, with site logo located on the left and a navigation menu with navigation links located on the right within the same row. 
+  - The site logo is clickable and will link back to the site homepage 
+  - The header is fixed at the top of the screen and will scroll with the page contents, allowing users to easily navigate through the website no matter where they are on the page, hence creating an intuitive design. 
+  - The navigations links undergo a colour change when a user's cursor hovers over it. This feature is available only a desktop or laptop but indicates to the site user that the 
+    navigation link is clickable.
+  - On a mobile device the navigation links will collapse into a dropdown button, with the navigation links displaying on the top left of the screen. 
+
+- Footer 
+
+  - Each page has the same footer which is located at the bottom page and does not scroll with the page contents in order to save screen real estate. 
+  - A copyright disclaimer is located on the left of the footer which states the year of creation and content creator.
+  - To the middle of the footer, is a button linking to the contact form, which will undergo a colour change when the user's cursor hovers over it. 
+  - The company social media links are positioned to the right of the footer and each site is represented by it's relative icon. They will also undergo a colour change when 
+    a user's cursor hovers over it, again, showing it's a clickable link.
+
+### Home Page
+
+- Bootstrap carousel with three images
+- Introduction section with informative text and map 
+- Customer testimonials 
+- Download brochure button
+
+
+### Things To Do Page
+
+- Interactive map with markers
+- Places to see and buttons that show location on Google Maps API
+- Interactive activities section but buttons that display text about the corresponding activity
+
+
+### Contact Page
+
+- Contact form with EmailJs integrated
+- Large background image of historical site and landscape
+
+
+### Features to implement in future
+
+- Trustpilot API.
+- A partner section where the user can easily book flights, accomadation and transport.
+- Option to choose language of website.  
+- Google Reviews. 
+- FAQ page. 
+- Newsletter and email marketing signup option for customers, that would provide information on latest travel offers 
+
+
 
 ## Technologies
 

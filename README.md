@@ -100,7 +100,13 @@ into booking a visit or seeking further information.
 
 ### Colour Schemes
 
-![Colour Schemes](.assets/images/ms2colour.png)
+- The colours were chosen as they provide an appealing user interface and complement the imagery. The colours are soft, to match the the theme of the website - nature and beauty.
+
+- Green is also one of the official colours of Kerry and indeed, Ireland. The lighter shade of green (#cdfccd) selected for the header, footer and background of the introudction paragraph augments the
+  site content and doesn't detract from the images. To keep the colours in alignment with the site theme, and in harmony with the background image, a light and welcoming shade of blue (#8cdbf3b9) was chosen as the colour
+  for the contact form.
+
+![Colour Schemes](./assets/images/ms2colour.png)
 
 ## Technologies
 

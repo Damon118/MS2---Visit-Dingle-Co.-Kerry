@@ -92,9 +92,13 @@ Contact Us - **[View](./assets/wireframes/contact.png)**
 
 ### Imagery 
 
-- The imagery selected is a key feature for attracting prospective visitors and tourists. The large carousel on the home page comprising of three images is designed to be captivating, attention-grabbing and
+- The imagery selected is a key feature for attracting prospective visitors and tourists. The large carousel on the home page comprising of three images (see example below) is designed to be captivating, attention-grabbing and
 to show an example of the pictureque landscape that Kerry beholds. The purpose of the beautiful imagery is to nurture interest in the area and entice those with an interest in sightseeing or landscapes
 into booking a visit or seeking further information.
+
+![Carousel-image](./assets/images/kerryhr1rs.jpeg)
+
+### Colour Schemes
 
 ## Technologies
 

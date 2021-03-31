@@ -17,6 +17,6 @@ function sendMail(contactForm) {
                 alert("There has been an error, please try again - thank you!", error);
             }
         );
-
+            document.getElementById("contactForm").reset();
     return false;
 }

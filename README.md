@@ -8,12 +8,6 @@
 
 [Introduction](#Introduction) 
 
-The purpose of this project is to promote Co. Kerry in Ireland to prospective visitors and tourists. This is done through captivating and stunning imagery of the landscape
-and a detailed description of places to visit and activities to do. It's a 3-page website consisting of a home page, see and do page and a contact page, with an option
-to download a brochure and make enquiries for further information. The project incorporates a simple, intuitive design provide optimal user experience and produces a real-life 
-demonstration of my development expertise for my interactive frontend development milestone project. It’s designed to be responsive and accessible on a range of devices, making 
-it easy to navigate for potential customers. The project can be further enhanced and built on to incorporate hotel, room and travel booking functionalities.
-
 [UX](#UX)
 
 [Design](#Design) 
@@ -32,7 +26,33 @@ it easy to navigate for potential customers. The project can be further enhanced
 
 ## Introduction 
 
+The purpose of this project is to promote Co. Kerry in Ireland to prospective visitors and tourists. This is done through captivating and stunning imagery of the landscape
+and a detailed description of places to visit and activities to do. It's a 3-page website consisting of a home page, see and do page and a contact page, with an option
+to download a brochure and make enquiries for further information. The project will have a broad target market and isn't targeted to any specific cohort of tourists.
+
+The project incorporates a simple, intuitive design provide optimal user experience and produces a real-life demonstration of my development expertise for my interactive frontend 
+development milestone project. It’s designed to be responsive and accessible on a range of devices, making it easy to navigate for potential customers. The project can be further 
+enhanced and built on to incorporate hotel, room and travel booking functionalities.
+
 ## UX 
+
+### Business Goals 
+
+- The principal purpose of this site is to market Kerry as an amazing holiday destination. 
+- Provide a good user experience. 
+- Provide clear information on places to visit, with engaging and captivating imagery, and things to do. 
+- Have a downloadable brochure which reiterates and compliments the promotional information on the site.
+- Build brand awareness.
+- Cultivate an interest in visiting Kerry and promote engagement with prospective tourists through the use of a contact form.
+- Provide an interactive map for site users with locations and corresponding descriptions.
+
+### User Goals 
+
+- Gain information on the attractions and activities Kerry has to offer.
+- Have different options on things to do and places to visit.
+- View the scenery and landscape through imagery.
+- Intuitive site navigation. 
+
 
 #### Interaction design
 

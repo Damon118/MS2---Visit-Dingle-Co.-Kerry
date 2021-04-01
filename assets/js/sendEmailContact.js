@@ -1,3 +1,5 @@
+// Used Code Institute lecture series on EmailJs as a refernce source.
+
 function sendMail(contactForm) {
     emailjs.send("gmail", "template_epikr0t", {
         "firstname": contactForm.firstname.value,

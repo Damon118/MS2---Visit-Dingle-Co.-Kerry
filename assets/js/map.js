@@ -1,3 +1,5 @@
+// Used Google Maps API documentation and https://stackoverflow.com/questions/11106671/google-maps-api-multiple-markers-with-infowindows as a refernce source for the markers with information.
+
 let map;
 let infoObject = [];
 let centerCords = {

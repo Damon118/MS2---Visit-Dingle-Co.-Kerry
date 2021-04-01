@@ -1,18 +1,5 @@
 ## Testing
 
-### Table of Contents 
-
-
-1. [Code Validity](##Code Validity) 
-
-2. [Performance Testing](##Performance Testing)
-
-3. [User Stories testing](##User Stories Testing)
-
-4. [General and Manual Testing](##General and Manual Testing)
-
-5. [Known Bugs & Issues](##Known Bugs & Issues)
-
 
 ### Code Validity
 
@@ -175,7 +162,7 @@ regarding these issues. These are features that could be implemented and incorpo
 
 #### Home Page
 
-1. Navigation bar:
+#### 1. Navigation bar:
 
 - Click the logo and ensure it links back to the home page.
 - Click all navigation items and make sure they link to the correct page. Ensure correct link is highlighted as "active" on corresponding page.
@@ -183,26 +170,26 @@ regarding these issues. These are features that could be implemented and incorpo
 - When checking the responsiveness of navbar, ensure there is no overflow and that no items are misplaced.
 - Verify the navigation bar is the same and functioning correctly on all pages.
 
-2. Carousel:
+#### 2. Carousel:
 
 - Ensure carousel is functional and fully responsive.
 - Ensure the page loading time at all screen sizes is appropriate.
 
-3. Introduction text and image:
+#### 3. Introduction text and image:
 
 - Alter screen size to confirm that the text and image in this section responds correctly and appear appropriately on all screen sizes.
 
-4. Visitor testimonials:
+#### 4. Visitor testimonials:
 
 - Alter screen size to confirm that the text and image in this section responds correctly and appear appropriately on all screen sizes.
 
-5. Download brochure button:
+#### 5. Download brochure button:
 
 - Hover over the button and and verify the hover colour change feature is functional.
 - Click on the button and ensure the brochure file is downloaded.
 - Ensure button is appearing and functional at all screen sizes.
 
-6. Footer:
+#### 6. Footer:
 
 - Confirm the copyright information, contact button and social media links are visible and have the correct functionality.
 - Reduce the size of the screen to ensure the footer is responsive.
@@ -212,19 +199,19 @@ regarding these issues. These are features that could be implemented and incorpo
 
 #### See & Do Page
 
-1. Map:
+#### 1. Map:
 
 - Verify that the Google Maps API is functioning correctly and is responsive on all screen sizes.
 - Confirm that the map is correctly centred over Kerry and the four markers in the correct position.
 - Verify the four markers display the correct information when clicked.
 
-2. Places to see:
+####2. Places to see:
 
 - Verify that the place cards are responsive on all screen sizes.
 - Verify the correct image and text is in the correct cards.
 - Confirm the view on map button links to the correct marker.
 
-3. Activities:
+####3. Activities:
 
 - Verify the activities section is responsive and displays correctly on all screen sizes.
 - Confirm there is a colour change when the activity button is clicked.
@@ -233,7 +220,7 @@ regarding these issues. These are features that could be implemented and incorpo
 
 #### Contact Page
 
-1. Form: 
+#### 1. Form: 
 
 - Ensure form is responsive and displays correctly on all devices. 
 - Enter information into the submit fields, check the box and click submit. Confirm that a popup appears thanking the user for entering their information

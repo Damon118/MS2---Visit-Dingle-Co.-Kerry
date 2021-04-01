@@ -21,11 +21,7 @@ syntax or structural errors within the code. The results of this testing are ind
 
 ![thingstodo.html](./assets/testing-images/thingstodov1.png)
 
-##### 4. thingstodo.html (part 2)
-
-![thingstodo.html](./assets/testing-images/thingstodov1.png) 
-
-##### 5. contact.html
+##### 4. contact.html
 
 ![contact.html](./assets/testing-images/contactv.png) 
 
@@ -78,11 +74,8 @@ syntax or structural errors within the code and was entered into the validator t
 - The website was viewed on a variety of devices such as Desktop, tablet, iPhone 7 & iPhone X. All formats were correctly structured and displayed well. 
 
 - I completed a vast array of detailed and comprehensive testing of my site to ensure that all links functioned correctly. This composed of 
-  navigating through each page of my site and clicking every link/button that is available to a user (as part of their UX journey) to ensure that everything was fucntioning correctly. I examined the
+  navigating through each page of my site and clicking every link/button that is available to a user (as part of their UX journey) to ensure that everything was functioning correctly. I examined the
   user stories indicated in the UX section of this document to ensure my site achieved each of these objectives.
-
-- I requested the my project be peer viewed twice on Slack by my fellow students. I received several positive reviews and important recommendations which I implemented into my project on both occasions.
-  A number of my fellow students tested my site in it's entirety and confirmed the site functioned correctly and as expected. 
 
 - [Responsinator](https://www.responsinator.com/) was used to confirm responsiveness on different device resolutions. 
 
@@ -107,7 +100,7 @@ the user with some background information on the county and it's appeal as a hol
 
 ![Introduction](./assets/testing-images/introduction.png)
 
-- "I want to gain information on the places to visit in Kerry." This requirement is met through the use of four informative cards on the see and do page. they
+- "I want to gain information on the places to visit in Kerry." This requirement is met through the use of four informative cards on the see and do page. They
 represent a brief introduction on four of the most popular tourist towns to visit in Kerry, with a link to view the relevant areas on the map. 
 
 ![Map](./assets/testing-images/placestosee.png)
@@ -130,7 +123,7 @@ form and download brochure button provide options for obtaining further informat
 
 ![Contact](./assets/testing-images/contactform.png)
 
-- "I want to see the recommended spots to visit on an interactive map." This requirement is met through the use of the Google Maps Api. There are four markers on the map which correspond to
+- "I want to see the recommended spots to visit on an interactive map." This requirement is met through the use of the Google Maps API. There are four markers on the map which correspond to
 the recommended places to visit cards. The markers are clickable and provide some further information about the location to the user. 
 
 ![Map](./assets/testing-images/interactivemap.png)
@@ -177,11 +170,11 @@ regarding these issues. These are features that could be implemented and incorpo
 
 #### 3. Introduction text and image:
 
-- Alter screen size to confirm that the text and image in this section responds correctly and appear appropriately on all screen sizes.
+- Alter screen size to confirm that the text and image in this section responds correctly and appears appropriately on all screen sizes.
 
 #### 4. Visitor testimonials:
 
-- Alter screen size to confirm that the text and image in this section responds correctly and appear appropriately on all screen sizes.
+- Alter screen size to confirm that the text and image in this section responds correctly and appears appropriately on all screen sizes.
 
 #### 5. Download brochure button:
 
@@ -230,7 +223,7 @@ and that someone will be intouch.
 
 ### Known Bugs & Issues
 
-- The contact form length was too excessive on mobile devices so the layout was slightly altered using a media query for small screen sizes
+- The contact form length was too excessive on mobile devices so the layout was slightly altered by removing the height attribute of it's parent div.
 
 - Removed the fixed-bottom class on the footer as too much screen real estate was being lost in combination with a fixed header. 
 

@@ -29,7 +29,7 @@ The purpose of this project is to promote Co. Kerry in Ireland to prospective vi
 and a detailed description of places to visit and activities to do. It's a 3-page website consisting of a home page, see and do page and a contact page, with an option
 to download a brochure and make enquiries for further information. The project will have a broad target market and isn't targeted to any specific cohort of tourists.
 
-The project incorporates a simple, intuitive design provide optimal user experience and produces a real-life demonstration of my development expertise for my interactive frontend 
+The project incorporates a simple, intuitive design to provide optimal user experience and produces a real-life demonstration of my development expertise for my interactive frontend 
 development milestone project. It’s designed to be responsive and accessible on a range of devices, making it easy to navigate for potential customers. The project can be further 
 enhanced and built on to incorporate hotel, room and travel booking functionalities.
 
@@ -42,8 +42,8 @@ The UX is simple, user-friendly and intuitive, providing an ease of navigation t
 
 - I want to get some background information on Kerry.
 - I want to gain information on places to visit in Kerry.
-- I want to have different options on things to do and places to visit.
-- I want to view the scenery and landscape through imagery.
+- I want to have different options on things to do.
+- I want to view the scenery and landscape through examples.
 - I want to be able to find social media links and resources for further information.
 - I want to see the recommended spots to visit on an interactive map.
 - I want an intuitive site navigation and design. 
@@ -91,8 +91,8 @@ The UX is simple, user-friendly and intuitive, providing an ease of navigation t
 - The site is organised into three pages.
 - The navbar is fixed at the top of the screen and allows the user to navigate to each page. The current page is highlighted in the navbar and the site logo
   links to the home page.
-- The carousel on the home page showcases some example of the scenery in Kerry.
-- The introduction paragraph on the home page gives the user a brief synopsis on the county. 
+- The carousel on the home page showcases some examples of the scenery in Kerry.
+- The introduction paragraph on the home page gives the user a brief synopsis of the county. 
 - The second page is interactive and the user can make choices about what content is displayed and where they are viewing on the map.
 - The content is clearly divided into sections so the user is clear on what the information they are viewing relates to.
 - The website contains a form for enquiries.
@@ -103,7 +103,7 @@ The UX is simple, user-friendly and intuitive, providing an ease of navigation t
 - Responsive and accesible on a range of devices. 
 - Visually pleasing displays. 
 - Low number of steps to book a travel consultation or contact.
-- The interface interacts with user actions as expected, the scroll/swipe actions respond with the normal behaviour and buttons acts instantly on press. These features generate a predictable
+- The interface interacts with user actions as expected, the scroll/swipe actions respond with the normal behaviour and buttons act instantly on press. These features generate a predictable
   feel for the user.
 
 
@@ -198,7 +198,7 @@ into booking a visit or seeking further information.
 
 - Interactive map with markers
 - Places to see and buttons that show location on Google Maps API
-- Interactive activities section but buttons that display text about the corresponding activity
+- Interactive activities section with buttons that display text about the corresponding activity
 
 
 ### Contact Page
@@ -272,6 +272,7 @@ into booking a visit or seeking further information.
 
 - [Coolors](https://coolors.co/) was used to prepare the colour palette included in this README.md file.
 
+
 - The images for the carousel were compressed using [tiny png](https://tinypng.com/)
 
 ## Testing
@@ -309,7 +310,7 @@ This project was deployed to GitHub Pages using the following protocol:
 ### Content 
 
 - All content was written by myself, Damon Gaffney, for the purpose of my Professional Diploma in Full Stack Software Development with Code Institute.
-- The information was sourced through a combination of [wikipedia](https://www.wikipedia.org/), [lonely planet](https://www.lonelyplanet.com/), [discover Kerry](https://www.discoverkerry.com/en/)
+- The information was sourced through a combination of [wikipedia](https://www.wikipedia.org/), [lonely planet](https://www.lonelyplanet.com/), [discover Kerry](https://www.discoverkerry.com/en/),
   [Kerry County Council](https://www.kerrycoco.ie/tourism/), [Kerry Tourism](https://www.kerrytourism.ie/) and my own knowledge.
 - The map is from the [Google Maps API](https://developers.google.com/maps)
 - The email functionality is provided by [EamilJS](https://www.emailjs.com/)
@@ -325,8 +326,8 @@ This project was deployed to GitHub Pages using the following protocol:
 
 ### Code
 
-- I reveiwed the Code Institute lecture series on implementing EmailJS adapted the methodology to fit my project purpose.
-- The visitor testimonials in the homeppage were inspired by the Bootstrapping Your Next Big Idea Videos by Matt Rudge of the Code Institute.
+- I reveiwed the Code Institute lecture series on implementing EmailJS and adapted the methodology to fit my project purpose.
+- The visitor testimonials in the homepage were inspired by the Bootstrapping Your Next Big Idea Videos by Matt Rudge of the Code Institute.
 - [Stack Overflow](https://stackoverflow.com/) was used for my toggle button JS code and Google Map with Markers and Description
 - [w3schools](https://www.w3schools.com/) as a general reference source.
 

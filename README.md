@@ -38,6 +38,30 @@ enhanced and built on to incorporate hotel, room and travel booking functionalit
 
 The UX is simple, user-friendly and intuitive, providing an ease of navigation through the site. 
 
+### First Time Visitor Goals
+
+- I want to get some background information on Kerry.
+- I want to gain information on places to visit in Kerry.
+- I want to have different options on things to do and places to visit.
+- I want to view the scenery and landscape through imagery.
+- I want to be able to find social media links and resources for further information.
+- I want to see the recommended spots to visit on an interactive map.
+- I want an intuitive site navigation and design. 
+- I want to see testimonials from people who have visited Kerry.
+
+### Business Owner
+- I want to provide interesting, factual information to the user.
+- I want the site to be intuitive and visually pleasing.
+- I want to ensure to include an option to download a brochure or contact us for further information.
+
+### Returning Visitor Goals
+- As a Returning Visitor, I want to download a brochure.
+- As a Returning Visitor, I want to be able to easily contact the site with any queries I may have.
+
+### Frequent Visitor Goals
+- As a Frequent/Returning Visitor, I want to see if there are any visitor testimonials I can view.
+- As a Frequent/Returning Visitor, I want to see if there is any new content or experiences being promoted on the site.
+- As a Frequent/Returning Visitor, I want to be able to contact the site with queries regarding travel, accomadation, flights etc.
 
 ### 1. Strategy
 
@@ -52,16 +76,6 @@ The UX is simple, user-friendly and intuitive, providing an ease of navigation t
 - Cultivate an interest in visiting Kerry and promote engagement with prospective tourists through the use of a contact form.
 - Provide an interactive map for site users with locations and corresponding descriptions.
 
-#### User Stories
-
-- I want to get some background information on Kerry.
-- I want to gain information on places to visit in Kerry.
-- I want to have different options on things to do and places to visit.
-- I want to view the scenery and landscape through imagery.
-- I want to be able to find social media links and resources for further information.
-- I want to see the recommended spots to visit on an interactive map.
-- I want an intuitive site navigation and design. 
-- I want to see testimonials from people who have visited Kerry.
 
 ### 2. Scope
 

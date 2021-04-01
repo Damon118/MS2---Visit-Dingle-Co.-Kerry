@@ -99,6 +99,8 @@ syntax or structural errors within the code and was entered into the validator t
 
 ### User Stories Testing
 
+#### First Time Visitor Goals
+
 - "I want to get some background information on Kerry." This requirement is met by an informative introduction section on the home page. This provides
 the user with some background information on the county and it's appeal as a holiday destination. 
 
@@ -132,10 +134,28 @@ the recommended places to visit cards. The markers are clickable and provide som
 
 ![Map](./assets/testing-images/interactivemap.png)
  
-"- I want to see testimonials from people who have visited Kerry." This requirement is met through the presence of visitor testimonials on the home page which help inspire confidence
+- "I want to see testimonials from people who have visited Kerry." This requirement is met through the presence of visitor testimonials on the home page which help inspire confidence
 in the site purpose and add that personal touch.
 
 ![Testimonials](./assets/testing-images/testimonials.png)
+
+#### Returning Visitor Goals
+
+- "As a Returning Visitor, I want to download a brochure." The download brochure option is available on the home page.
+
+![Testimonials](./assets/testing-images/testimonials.png)
+
+- "As a Returning Visitor, I want to be able to easily contact the site with any queries I may have." There is a contact form which is fully integrated with EmailJS. 
+
+#### Frequent Visitor Goals
+
+- "As a Frequent/Returning Visitor, I want to see if there are any visitor testimonials I can view." The testimonials are available on the home page and help add a personal touch.
+
+- "As a Frequent/Returning Visitor, I want to see if there is any new content or experiences being promoted on the site." The site has huge scope for development and incorporating new
+activities and places to see. The attractions listed in the site to date are only a portion of what Kerry has to offer.
+
+- "As a Frequent/Returning Visitor, I want to be able to contact the site with queries regarding travel, accomadation, flights etc." The contact form offers the opportunity to contact the site
+regarding these issues. These are features that could be implemented and incorporated into the site in future developments.
 
 
 ### Known Bugs & Issues

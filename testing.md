@@ -3,13 +3,15 @@
 ### Table of Contents 
 
 
-1. [Code Validity](# Code Validity) 
+1. [Code Validity](##Code Validity) 
 
-2. [Performance Testing](# Performance Testing)
+2. [Performance Testing](##Performance Testing)
 
-3. [User Stories testing](# User Stories Testing)
+3. [User Stories testing](##User Stories Testing)
 
-4. [Known Bugs & Issues](# Known Bugs & Issues)
+4. [General and Manual Testing](##General and Manual Testing)
+
+5. [Known Bugs & Issues](##Known Bugs & Issues)
 
 
 ### Code Validity
@@ -69,6 +71,18 @@ syntax or structural errors within the code and was entered into the validator t
 #### JS 
 
 - The JavaScript files were validated using [JSHint](https://jshint.com/) and no errors were recorded. No errors were recorded in the DevTools either.
+
+#### map.js 
+
+![map.js](./assets/testing-images/jsmap.png)
+
+#### activities.js 
+
+![activities.js](./assets/testing-images/jstoggle.png)
+
+#### sendEmailContact.js 
+
+![sendEmailContact.js](./assets/testing-images/jsemail.png)
 
 ### Performance Testing 
 
@@ -157,6 +171,75 @@ activities and places to see. The attractions listed in the site to date are onl
 - "As a Frequent/Returning Visitor, I want to be able to contact the site with queries regarding travel, accomadation, flights etc." The contact form offers the opportunity to contact the site
 regarding these issues. These are features that could be implemented and incorporated into the site in future developments.
 
+### General and Manual Testing
+
+#### Home Page
+
+1. Navigation bar:
+
+- Click the logo and ensure it links back to the home page.
+- Click all navigation items and make sure they link to the correct page. Ensure correct link is highlighted as "active" on corresponding page.
+- Reduce screen size to that of a tablet and phone to verify that the navigation bar is fully responsive and switches from the inline menu to the dropdown button at the correct place.
+- When checking the responsiveness of navbar, ensure there is no overflow and that no items are misplaced.
+- Verify the navigation bar is the same and functioning correctly on all pages.
+
+2. Carousel:
+
+- Ensure carousel is functional and fully responsive.
+- Ensure the page loading time at all screen sizes is appropriate.
+
+3. Introduction text and image:
+
+- Alter screen size to confirm that the text and image in this section responds correctly and appear appropriately on all screen sizes.
+
+4. Visitor testimonials:
+
+- Alter screen size to confirm that the text and image in this section responds correctly and appear appropriately on all screen sizes.
+
+5. Download brochure button:
+
+- Hover over the button and and verify the hover colour change feature is functional.
+- Click on the button and ensure the brochure file is downloaded.
+- Ensure button is appearing and functional at all screen sizes.
+
+6. Footer:
+
+- Confirm the copyright information, contact button and social media links are visible and have the correct functionality.
+- Reduce the size of the screen to ensure the footer is responsive.
+- Ensure that only social media icons are visible on small screens.
+- Verify social media links link to the correct site and that the contact button brings the user to the contact page.
+- Ensure footer is identical on all pages.
+
+#### See & Do Page
+
+1. Map:
+
+- Verify that the Google Maps API is functioning correctly and is responsive on all screen sizes.
+- Confirm that the map is correctly centred over Kerry and the four markers in the correct position.
+- Verify the four markers display the correct information when clicked.
+
+2. Places to see:
+
+- Verify that the place cards are responsive on all screen sizes.
+- Verify the correct image and text is in the correct cards.
+- Confirm the view on map button links to the correct marker.
+
+3. Activities:
+
+- Verify the activities section is responsive and displays correctly on all screen sizes.
+- Confirm there is a colour change when the activity button is clicked.
+- Confirm the correct information is displayed in the text box when each button is clicked.
+- Ensure the text arrangement looks good on all devices.
+
+#### Contact Page
+
+1. Form: 
+
+- Ensure form is responsive and displays correctly on all devices. 
+- Enter information into the submit fields, check the box and click submit. Confirm that a popup appears thanking the user for entering their information
+and that someone will be intouch.
+- Verify EmailJS is functioning correctly by checkig the message has been received into the email used for my account.
+- Ensure form information is provided with correct EmailJS template.
 
 ### Known Bugs & Issues
 
@@ -164,7 +247,7 @@ regarding these issues. These are features that could be implemented and incorpo
 
 - Removed the fixed-bottom class on the footer as too much screen real estate was being lost in combination with a fixed header. 
 
-- The images in the carousel were compressed using (TinyPNG)[https://tinypng.com/] as they were causing the home page loading time to be too long.
+- The images in the carousel were compressed using [TinyPNG](https://tinypng.com/) as they were causing the home page loading time to be too long.
 
 - Unsolved issue: For better UX, I wanted the toggle buttons on the thingstodo.html for the 4 activities to be clickable more than once. Currently,
 they can only be clicked once and the corresponding text only displayed once. I will take the neccessary steps to learn how to implement this functionality 

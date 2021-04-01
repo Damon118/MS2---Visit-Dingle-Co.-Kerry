@@ -277,7 +277,6 @@ div#map {min-height: 360px;}
     background-position: center;
     background-size: cover;
     opacity: 0.5; 
-    height: 135vh;
     position: absolute;
     top: 0px;
     right: 0px;

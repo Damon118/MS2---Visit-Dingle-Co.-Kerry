@@ -205,13 +205,13 @@ regarding these issues. These are features that could be implemented and incorpo
 - Confirm that the map is correctly centred over Kerry and the four markers in the correct position.
 - Verify the four markers display the correct information when clicked.
 
-####2. Places to see:
+#### 2. Places to see:
 
 - Verify that the place cards are responsive on all screen sizes.
 - Verify the correct image and text is in the correct cards.
 - Confirm the view on map button links to the correct marker.
 
-####3. Activities:
+#### 3. Activities:
 
 - Verify the activities section is responsive and displays correctly on all screen sizes.
 - Confirm there is a colour change when the activity button is clicked.

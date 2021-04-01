@@ -263,7 +263,6 @@ div#map {min-height: 360px;}
 
 .contact-container {
     position: relative; 
-    height: 135vh;
     width: 100%;
     display: flex;
     align-items: center;
